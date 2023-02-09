@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/sass-coding/static/css/main.4d56a463.chunk.css",
+    "main.js": "/sass-coding/static/js/main.70f92acd.chunk.js",
+    "main.js.map": "/sass-coding/static/js/main.70f92acd.chunk.js.map",
+    "runtime-main.js": "/sass-coding/static/js/runtime-main.609c3a4f.js",
+    "runtime-main.js.map": "/sass-coding/static/js/runtime-main.609c3a4f.js.map",
+    "static/css/2.43114cd1.chunk.css": "/sass-coding/static/css/2.43114cd1.chunk.css",
+    "static/js/2.e2c95122.chunk.js": "/sass-coding/static/js/2.e2c95122.chunk.js",
+    "static/js/2.e2c95122.chunk.js.map": "/sass-coding/static/js/2.e2c95122.chunk.js.map",
+    "static/js/3.92f49b6a.chunk.js": "/sass-coding/static/js/3.92f49b6a.chunk.js",
+    "static/js/3.92f49b6a.chunk.js.map": "/sass-coding/static/js/3.92f49b6a.chunk.js.map",
+    "index.html": "/sass-coding/index.html",
+    "static/css/2.43114cd1.chunk.css.map": "/sass-coding/static/css/2.43114cd1.chunk.css.map",
+    "static/css/main.4d56a463.chunk.css.map": "/sass-coding/static/css/main.4d56a463.chunk.css.map",
+    "static/js/2.e2c95122.chunk.js.LICENSE.txt": "/sass-coding/static/js/2.e2c95122.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.609c3a4f.js",
+    "static/css/2.43114cd1.chunk.css",
+    "static/js/2.e2c95122.chunk.js",
+    "static/css/main.4d56a463.chunk.css",
+    "static/js/main.70f92acd.chunk.js"
+  ]
+}
