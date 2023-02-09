@@ -1,0 +1,30 @@
+
+
+.pagination  {
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+    border-radius: 0.25rem;
+    li {
+        list-style: none;
+        .page-link {
+            margin-left: 0px;
+            border-top-left-radius: 0.25rem;
+            border-bottom-left-radius: 0.25rem;
+            position: relative;
+            display: block;
+            padding: 0.5rem 0.75rem;
+            line-height: 1.25;
+            color: rgb(0, 123, 255);
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(222, 226, 230);
+        }
+        &.disabled {
+            color: rgb(108, 117, 125);
+            pointer-events: none;
+            cursor: auto;
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(222, 226, 230);
+        }
+    }
+}

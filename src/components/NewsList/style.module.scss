@@ -1,0 +1,165 @@
+body {
+    background: #1E1930 !important;
+    color: #D2D1D5;
+}
+
+.table-responsive,
+.table-modal-box {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    min-height: 670px;
+
+    tr {
+        &:nth-child(even) {
+            background-color: #423B5B;
+        }
+
+        &:nth-child(odd) {
+            background-color: #2e2649;
+        }
+
+        th {
+            background-color: #342F44;
+            color: white;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            color: #fff;
+            white-space: nowrap;
+        }
+    }
+
+    .noBorder {
+        border: none !important;
+    }
+}
+
+.loading {
+    text-align: center;
+}
+
+.pagination-ccontiner {
+    max-width: 320px;
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    min-width: 100px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    &:hover {
+        color: #000;
+        background-color: #31d2f2;
+        border-color: #25cff2;
+    }
+}
+
+.list-title {
+    max-width: 100px;
+    max-height: 24px;
+}
+
+.story-btn {
+    background-color: rgb(247 206 72 / 20%);
+    color: #f7ce48;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.comment-btn {
+    background-color: rgb(102 217 136 / 20%);
+    color: #66d988;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.poll-btn {
+    background-color: rgb(75 166 248 / 20%);
+    color: #4ba6f8;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.modal-type-btn.story-btn {
+    color: #333;
+    background-color: rgb(247, 206, 72, 0.6);
+}
+
+.modal-type-btn.comment-btn {
+    color: #333;
+    background-color: rgb(102, 217, 136, 0.6);
+}
+
+.modal-type-btn.poll-btn {
+    color: #333;
+    color: rgb(75, 166, 248, 0.6);
+}
+
+.kids-count-view {
+    .view {
+        background-color: #42a3b9;
+        border: 0px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: #42a3b9;
+        }
+    }
+}
+
+.modal-popup-xxl {
+    max-width: 1000px !important;
+
+    table {
+        width: 100%;
+
+        tr {
+            &:nth-child(even) {
+                background-color: #423B5B;
+            }
+
+            &:nth-child(odd) {
+                background-color: #2e2649;
+            }
+
+            th {
+                background-color: #342F44;
+                color: white;
+                border-bottom: 2px solid #dee2e6;
+                position: sticky;
+                top: 0;
+            }
+
+            th,
+            td {
+                padding: 12px;
+                color: #fff;
+                white-space: nowrap;
+            }
+        }
+    }
+}
